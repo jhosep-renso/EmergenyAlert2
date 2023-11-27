@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recomendaciones "
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recommendedLayou"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugares Recomendadas"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Lista de comidas recomendadas (puedes usar TextViews o cualquier otro widget) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La Buena Sazón " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los, Quinuales 125, Huancayo" />
+        <!-- Agrega más elementos según sea necesario -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notRecommendedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F13456"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comidas No Recomendadas"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Lista de comidas no recomendadas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Situacion: Choque" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-12.041750551403597, -75.20521588924233" />
+        <!-- Agrega más elementos según sea necesario -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recommendedLayout"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugares Recomendadas"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Lista de comidas recomendadas (puedes usar TextViews o cualquier otro widget) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurante Kook " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los, Quinuales 120, Huancayo" />
+        <!-- Agrega más elementos según sea necesario -->
+
+    </LinearLayout>
+
+</LinearLayout>

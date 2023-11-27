@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Informe"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondolog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reportes Realizados"
+        android:textColor="@color/blue"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10sp"
+        ></TextView>
+    <Button
+        android:id="@+id/btnInformeregMenu"
+        android:text="Regresar"
+        android:layout_width="300sp"
+        android:layout_height="45dp"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple"
+        app:cornerRadius="20dp"/>
+    <ListView
+        android:id="@+id/lstInforme"
+        android:layout_width="340sp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="5dp"></ListView>
+
+</LinearLayout>
